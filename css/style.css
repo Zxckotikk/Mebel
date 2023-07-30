@@ -1,0 +1,84 @@
+.container {
+    width: 1440px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+header {
+    background-size: cover;
+    background-image: url(../image-m/Rectangle\ 1441.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.header-logo {
+    padding-top: 40px;
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    text-transform: capitalize;
+    padding-left: 80px;
+
+}
+
+.header-container {
+    display: flex;
+}
+
+.header-list {
+    padding-top: 47px;
+    display: flex;
+    gap: 64px;
+}
+
+.header-link {
+    color: #FFFF;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header-item:first-child {
+    margin-left: 323px;
+}
+/* header */
+.head-list{
+    margin-top: 92px;
+}
+.head-title{
+    color: #FFF;
+text-align: center;
+font-family: 'Inter';
+font-size: 80px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 104px */
+letter-spacing: -0.8px;
+text-transform: capitalize;
+
+}
+.head-subtitle{
+    max-width: 606px;
+    max-height: auto;
+}
+ /* Text */
+.text-list{
+    display:flex;
+}
+/* card */
+.hero-list{
+    display: flex;
+    gap: 40px;
+}
+.card-list{
+    display: flex;
+}

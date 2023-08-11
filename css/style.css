@@ -4,14 +4,19 @@
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    
+}
+
+.head-container {
+    padding-bottom: 524px;
+
 }
 
 header {
     background-size: cover;
     background-image: url(../image-m/Rectangle\ 1441.png);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 2000px;
+    height: 1084px;
 }
 
 .header-logo {
@@ -50,35 +55,105 @@ header {
 .header-item:first-child {
     margin-left: 323px;
 }
+
 /* header */
-.head-list{
+.head-list {
     margin-top: 92px;
 }
-.head-title{
+
+.search-head {
+    width: 344px;
+    padding: 8px 8px 8px 20px;
+    border-radius: 42px;
+    border: 0.862px solid rgba(255, 255, 255, 0.60);
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(4px);
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+}
+
+.head-title {
     color: #FFF;
-text-align: center;
-font-family: 'Inter';
-font-size: 80px;
-font-style: normal;
-font-weight: 600;
-line-height: 130%; /* 104px */
-letter-spacing: -0.8px;
-text-transform: capitalize;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: -0.8px;
+    text-transform: capitalize;
 
 }
-.head-subtitle{
+
+.head-subtext {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 38.4px */
+    opacity: 0.800000011920929;
+    margin-top: 14px;
+}
+
+.head-item {
     max-width: 606px;
-    max-height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
- /* Text */
-.text-list{
-    display:flex;
+
+/* Text */
+.text-list {
+    display: flex;
 }
+
+.text-title {
+    color: #1E1E1E;
+    font-family: 'Inter';
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: -0.8px;
+    text-transform: capitalize;
+}
+
+.text-subtitle {
+    color: #E58411;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 185%;
+}
+
 /* card */
-.hero-list{
+.hero-list {
+    display: inline-flex;
+    padding: 6px;
+    align-items: flex-start;
+    border-radius: 44px;
+    background: #EEE;
     display: flex;
     gap: 40px;
 }
-.card-list{
+
+.hero-buttons {
+    display: flex;
+    width: 84px;
+    height: 45px;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 32px;
+    background: #FFF;
+}
+
+.card-list {
     display: flex;
 }

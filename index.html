@@ -4,247 +4,273 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Panto</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter:wght@400;600&family=Montserrat:wght@200;400&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter:wght@400;600&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
-    <header>
-        <div class="container header-container">
-            <a href="./index.html" class="header-logo">Panto</a>
-            <ul class="header-list">
-                <li class="header-item"><a href="" class="header-link">Furniture</a></li>
-                <li class="header-item"><a href="" class="header-link">Shop</a></li>
-                <li class="header-item"><a href="" class="header-link">About Us</a></li>
-                <li class="header-item"><a href="" class="header-link">Contact</a></li>
-            </ul>
-        </div>
-        <div class="container head-container">
-            <ul class="head-list">
-                <li class="head-title">
-                    <h1 class="head-title">Make your interior More </h1>
-                </li>
-                <li class="head-title">
-                    <h2 class="head-title">Minimalistic & Modern</h2>
-                </li>
-                <li class="head-item">
-                    <h2 class="head-subtext">Turn your room with panto into a lot more minimalist and modern with ease
-                        and speed</h2>
-                </li>
-            </ul>
-            <input type="search" placeholder="Search furniture" class="search-head">
+    <header class="header">
+        <div class="container">
+            <div class="header-flex">
+                <a href="./index.html" class="header-logo">Panto</a>
+                <nav class="header-navigation">
+                    <ul class="header-list">
+                        <li class="header-item">
+                            <a href="./index.html" class="header-link">Furniture</a>
+                        </li>
+                        <li class="header-item">
+                            <a href="./index.html" class="header-link">Shop</a>
+                        </li>
+                        <li class="header-item">
+                            <a href="./index.html" class="header-link">About Us</a>
+                        </li>
+                        <li class="header-item">
+                            <a href="./index.html" class="header-link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
     <main>
-        <div class="container">
-            <section class="texts">
-                <h2 class="text-title">Why Choosing Us</h2>
-                <ul class="text-list">
-                    <li class="text-item">
-                        <h2>Luxury facilities</h2>
-                        <h2 class="text-text">The advantage of hiring a workspace with us is that givees you comfortable
-                            service and all-around facilities.</h2>
-                        <h3 class="text-subtitle">More Info</h3>
-                    </li>
-                    <li class="text-item">
-                        <h2>Affordable Price</h2>
-                        <h2>You can get a workspace of the highst quality at an affordable price and still enjoy the
-                            facilities that are oly here.</h2>
-                        <h3 class="text-subtitle">More Info</h3>
-                    </li>
-                    <li class="text-item">
-                        <h2>Many Choices</h2>
-                        <h2>We provide many unique work space choices so that you can choose the workspace to your
-                            liking.</h2>
-                        <h3 class="text-subtitle">More Info</h3>
-                    </li>
-                </ul>
-            </section>
-        </div>
-        <div class="container">
-            <section class="hero-button">
-                <h2 class="hero-title">Best Selling Product</h2>
-                <ul class="hero-list">
-                    <li class="hero-item"><button class="hero-buttons">Chair</button></li>
-                    <li class="hero-item"><button class="hero-buttons">Beds</button></li>
-                    <li class="hero-item"><button class="hero-buttons">Sofa</button></li>
-                    <li class="hero-item"><button class="hero-buttons">Lamp</button></li>
-                </ul>
-                <ul class="card-list">
-                    <li class="card-item">
-                        <img src="./image-m/black.png" alt="">
-                        <p class="card-top-subtitle">Chair</p>
-                        <h2>Sakarias Armchair</h2>
-                        <img src="./image-m/star.jpg" alt="">
-                        <p>$392</p>
-                    </li>
-                    <li class="card-item">
-                        <img src="./image-m/without arm.png" alt="">
-                        <p class="card-top-subtitle">Chair</p>
-                        <h2>Baltsar Chair</h2>
-                        <img src="./image-m/star.jpg" alt="">
-                        <p>$299</p>
-                    </li>
-                    <li class="card-item">
-                        <img src="./image-m/black gray.png" alt="">
-                        <p class="card-top-subtitle">Chair</p>
-                        <h2>Anjay Chair</h2>
-                        <img src="./image-m/star.jpg" alt="">
-                        <p>$519</p>
-                    </li>
-                    <li class="card-item">
-                        <img src="./image-m/redan.png" alt="">
-                        <p class="card-top-subtitle">Chair</p>
-                        <h2>Nyantuy Chair</h2>
-                        <img src="./image-m/star.jpg" alt="">
-                        <p>$921</p>                       
-                    </li>
-                </ul>
-                <h2>View All</h2>
-                <img src="./image-m/strelka.png" alt="">
-            </section>
-            <section class="information">
-                <ul class="inf-list">
-                    <li class="inf-item"><img src="./image-m/eva_arrow-ios-back-outline.png" alt=""></li>
-                    <li class="inf-item"></li>
-                </ul>
-            </section>
-            <section class="experiences">
-                <div class="container">
-                    <div class="experiences-flex">
-                        <img src="./img/experiences-1.png" alt="sofa photo" class="experiences-img">
-                        <div class="experiences-box">
-                            <p class="experiences-text">Experiences</p>
-                            <h2 class="experiences-title">we provide you the best experience</h2>
-                            <p class="experiences-description">You don’t have to worry about the result because all of these
-                                interiors are made by people who are professionals in their fields with an elegant and
-                                lucurious
-                                style and with premium quality materials</p>
-                                <img src="./image-m/sofa.png" alt="">
-                            <a href="./index.html" class="experiences-link">More Info</a>
-                        </div>                      
-                    </div>
-                </div>
-            </section>
-            <section class="materials">
-                <div class="container">
-                    <p class="materials-text">Materials</p>
-                    <h2 class="materials-title">Very serious materials for making furniture</h2>
-                    <p class="materials-description">Because panto was very serious about designing furniture for our
-                        environment, using a very expensive and famous capital but at a relatively low price</p>
-                        <img src="./image-m/mnoga-styl.png" alt="">
-                        <img src="./image-m/half-sofa.png" alt="">
-                        <img src="./image-m/Table.png" alt="">
-                    <a href="./index.html" class="materials-link">More Info</a>
-                </div>
-            </section>
-            <section class="reviews">
-                <div class="container">
-                    <p class="reviews-text">Testimonials</p>
-                    <h2 class="reviews-tite">Our Client Reviews</h2>
-                    <ul class="reviews-list">
-                        <li class="reviews-item">
-                            <div class="reviews-box">
-                                <h3 class="reviews-subtitle">Bang Upin</h3>
-                                <p class="reviews-paragraph">Pedagang Asongan</p>
-                                <p class="reviews-description">“Terimakasih banyak, kini ruanganku menjadi lebih mewah
-                                    dan terlihat mahal“</p>
-                                <img src="./image-m/star4.png" alt="4 stars" class="reviews-img">
-                            </div>
-                        </li>
-                        <li class="reviews-item">
-                            <div class="reviews-box">
-                                <h3 class="reviews-subtitle">Ibuk Sukijan</h3>
-                                <p class="reviews-paragraph">Ibu Rumah Tangga</p>
-                                <p class="reviews-description">“Makasih Panto, aku sekarang berasa tinggal di apartment
-                                    karena barang-barang yang terlihat mewah“</p>
-                                <img src="./image-m/star4.png" alt="4 stars" class="reviews-img">
-                            </div>
-                        </li>
-                        <li class="reviews-item">
-                            <div class="reviews-box">
-                                <h3 class="reviews-subtitle">Mpok Ina</h3>
-                                <p class="reviews-paragraph">Karyawan Swasta</p>
-                                <p class="reviews-description">“Sangat terjangkau untuk kantong saya yang tidak terlalu
-                                    banyak“</p>
-                                <img src="./image-m/star4.png" alt="4 stars" class="reviews-img">
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-        </main>
-        <footer class="footer">
+        <section class="hero">
             <div class="container">
-                <div class="footer-flex">
-                    <div class="footer-box">
-                        <a href="./index.html" class="footer-logo">Panto</a>
-                        <p class="footer-description">The advantage of hiring a workspace with us is that givees you
-                            comfortable
-                            service and all-around facilities.</p>
-                    </div>
-                    <ul class="footer-list">
-                        <li class="footer-item">
-                            <h2 class="services-title">Services</h2>
-                            <ul class="services-list">
-                                <li class="services-item">
-                                    <a href="./index.html" class="services-link">Email Marketing</a>
-                                </li>
-                                <li class="services-item">
-                                    <a href="./index.html" class="services-link">Campaigns</a>
-                                </li>
-                                <li class="services-item">
-                                    <a href="./index.html" class="services-link">Branding</a>
-                                </li>
-                            </ul>
+                <h1 class="hero-title">Make your interior more
+                    minimalistic & modern</h1>
+                <p class="hero-text">Turn your room with panto into a lot more minimalist and modern with ease and speed
+                </p>
+                <input type="text" class="hero-input" placeholder="Search furniture">
+            </div>
+        </section>
+        <section class="advantages">
+            <div class="container">
+                <div class="advantages-flex">
+                    <h2 class="advantages-title">Why
+                        Choosing Us</h2>
+                    <ul class="advantages-list">
+                        <li class="advantages-item">
+                            <h3 class="advantages-subtitle">Luxury facilities</h3>
+                            <p class="advantages-description">The advantage of hiring a workspace with us is that givees
+                                you
+                                comfortable service and all-around facilities.</p>
+                            <a href="./index.html" class="advantages-link">More Info</a>
                         </li>
-                        <li class="footer-item">
-                            <h2 class="furniture-title">Furniture</h2>
-                            <ul class="furniture-list">
-                                <li class="furniture-item">
-                                    <a href="./index.html" class="furniture-link">Beds</a>
-                                </li>
-                                <li class="furniture-item">
-                                    <a href="./index.html" class="furniture-link">Chair</a>
-                                </li>
-                                <li class="furniture-item">
-                                    <a href="./index.html" class="furniture-link">All</a>
-                                </li>
-                            </ul>
+                        <li class="advantages-item">
+                            <h3 class="advantages-subtitle">Affordable Price</h3>
+                            <p class="advantages-description">You can get a workspace of the highst quality at an
+                                affordable
+                                price and still enjoy the facilities that are oly here.</p>
+                            <a href="./index.html" class="advantages-link">More Info</a>
                         </li>
-                        <li class="footer-item">
-                            <h2 class="follow-title">Follow Us</h2>
-                            <ul class="follow-list">
-                                <li class="follow-item">
-                                    <a href="https://www.facebook.com" target="_blank" class="follow-link">Facebook</a>
-                                </li>
-                                <li class="follow-item">
-                                    <a href="https://twitter.com" target="_blank" class="follow-link">Twitter</a>
-                                </li>
-                                <li class="follow-item">
-                                    <a href="https://www.instagram.com" target="_blank" class="follow-link">Instagram</a>
-                                </li>
-                            </ul>
+                        <li class="advantages-item">
+                            <h3 class="advantages-subtitle">Many Choices</h3>
+                            <p class="advantages-description">We provide many unique work space choices so that you can
+                                choose the workspace to your liking.</p>
+                            <a href="./index.html" class="advantages-link">More Info</a>
                         </li>
                     </ul>
-                </div>
-                <div class="footer-box2">
-                    <time datetime="2021" class="footer-time">Copyright © 2021</time>
-                    <p class="footer-paragraph">Terms & Conditions</p>
-                    <p class="footer-text">Privacy Policy</p>
                 </div>
             </div>
-        </footer>
-        </div>     
+        </section>
+        <section class="button">
+            <div class="container">
+                <h2 class="button-title">Best Selling Product</h2>
+                <ul class="button-list">
+                    <li class="button-item">
+                        <a href="./index.html" class="button-link">Chair</a>
+                    </li>
+                    <li class="button-item">
+                        <a href="./index.html" class="button-link">Beds</a>
+                    </li>
+                    <li class="button-item">
+                        <a href="./index.html" class="button-link">Sofa</a>
+                    </li>
+                    <li class="best-item">
+                        <a href="./index.html" class="button-link">Lamp</a>
+                    </li>
+                </ul>
+                <ul class="best-goods">
+                    <li class="best-item2">
+                        <div class="best-box2">
+                            <p class="best-text">Chair</p>
+                            <h3 class="best-subtitle">Sakarias Armchair</h3>
+                            <img src="./images/stars.png" alt="5 stars" class="best-img">
+                            <div class="best-flex">
+                                <p class="best-paragraph">$</p>
+                                <p class="best-price">392</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="best-item2">
+                        <div class="best-box2">
+                            <p class="best-text">Chair</p>
+                            <h3 class="best-subtitle">Baltsar Chair</h3>
+                            <img src="./images/stars.png" alt="5 stars" class="best-img">
+                            <div class="best-flex">
+                                <p class="best-paragraph">$</p>
+                                <p class="best-price">299</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="best-item2">
+                        <div class="best-box2">
+                            <p class="best-text">Chair</p>
+                            <h3 class="best-subtitle">Anjay Chair</h3>
+                            <img src="./images/stars.png" alt="5 stars" class="best-img">
+                            <div class="best-flex">
+                                <p class="best-paragraph">$</p>
+                                <p class="best-price">519</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="best-item2">
+                        <div class="best-box2">
+                            <p class="best-text">Chair</p>
+                            <h3 class="best-subtitle">Nyantuy Chair</h3>
+                            <img src="./images/stars.png" alt="5 stars" class="best-img">
+                            <div class="best-flex">
+                                <p class="best-paragraph">$</p>
+                                <p class="best-price">921</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="best-box">
+                    <a href="./index.html" class="best-link2">View All</a>
+                </div>
+            </div>
+        </section>
+        <section class="experiences">
+            <div class="container">
+                <div class="experiences-flex">
+                    <img src="./images/experiences-1.png" alt="sofa photo" class="experiences-img">
+                    <div class="experiences-box">
+                        <p class="experiences-text">experiences</p>
+                        <h2 class="experiences-title">we provide you the best experience</h2>
+                        <p class="experiences-description">You don’t have to worry about the result because all of these
+                            interiors are made by people who are professionals in their fields with an elegant and
+                            lucurious
+                            style and with premium quality materials</p>
+                        <a href="./index.html" class="experiences-link">More Info</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="materials">
+            <div class="container">
+                <p class="materials-text">Materials</p>
+                <h2 class="materials-title">Very serious materials for making furniture</h2>
+                <p class="materials-description">Because panto was very serious about designing furniture for our
+                    environment, using a very expensive and famous capital but at a relatively low price</p>
+                <a href="./index.html" class="materials-link">More Info</a>
+                <!-- я не знаю як зробити ті картинки, як на макеті :( -->
+            </div>
+        </section>
+        <section class="testimonials">
+            <div class="container">
+                <p class="testimonials-text">Testimonials</p>
+                <h2 class="testimonials-tite">Our Client Reviews</h2>
+                <ul class="testimonials-list">
+                    <li class="testimonials-item">
+                        <div class="testimonials-box">
+                            <h3 class="testimonials-subtitle">Bang Upin</h3>
+                            <p class="testimonials-paragraph">Pedagang Asongan</p>
+                            <p class="testimonials-description">“Terimakasih banyak, kini ruanganku menjadi lebih mewah
+                                dan terlihat mahal“</p>
+                            <img src="./images/stars2.png" alt="4 stars" class="testimonials-img">
+                        </div>
+                    </li>
+                    <li class="testimonials-item">
+                        <div class="testimonials-box">
+                            <h3 class="testimonials-subtitle">Ibuk Sukijan</h3>
+                            <p class="testimonials-paragraph">Ibu Rumah Tangga</p>
+                            <p class="testimonials-description">“Makasih Panto, aku sekarang berasa tinggal di apartment
+                                karena barang-barang yang terlihat mewah“</p>
+                            <img src="./images/stars2.png" alt="4 stars" class="testimonials-img">
+                        </div>
+                    </li>
+                    <li class="testimonials-item">
+                        <div class="testimonials-box">
+                            <h3 class="testimonials-subtitle">Mpok Ina</h3>
+                            <p class="testimonials-paragraph">Karyawan Swasta</p>
+                            <p class="testimonials-description">“Sangat terjangkau untuk kantong saya yang tidak terlalu
+                                banyak“</p>
+                            <img src="./images/stars2.png" alt="4 stars" class="testimonials-img">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-flex">
+                <div class="footer-box">
+                    <a href="./index.html" class="footer-logo">Panto</a>
+                    <p class="footer-description">The advantage of hiring a workspace with us is that givees you
+                        comfortable
+                        service and all-around facilities.</p>
+                </div>
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <h2 class="services-title">Services</h2>
+                        <ul class="services-list">
+                            <li class="services-item">
+                                <a href="./index.html" class="services-link">Email Marketing</a>
+                            </li>
+                            <li class="services-item">
+                                <a href="./index.html" class="services-link">Campaigns</a>
+                            </li>
+                            <li class="services-item">
+                                <a href="./index.html" class="services-link">Branding</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="footer-item">
+                        <h2 class="furniture-title">Furniture</h2>
+                        <ul class="furniture-list">
+                            <li class="furniture-item">
+                                <a href="./index.html" class="furniture-link">Beds</a>
+                            </li>
+                            <li class="furniture-item">
+                                <a href="./index.html" class="furniture-link">Chair</a>
+                            </li>
+                            <li class="furniture-item">
+                                <a href="./index.html" class="furniture-link">All</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="footer-item">
+                        <h2 class="follow-title">Follow Us</h2>
+                        <ul class="follow-list">
+                            <li class="follow-item">
+                                <a href="https://www.facebook.com" target="_blank" class="follow-link">Facebook</a>
+                            </li>
+                            <li class="follow-item">
+                                <a href="https://twitter.com" target="_blank" class="follow-link">Twitter</a>
+                            </li>
+                            <li class="follow-item">
+                                <a href="https://www.instagram.com" target="_blank" class="follow-link">Instagram</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-box2">
+                <time datetime="2021" class="footer-time">Copyright © 2021</time>
+                <p class="footer-paragraph">Terms & Conditions</p>
+                <p class="footer-text">Privacy Policy</p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

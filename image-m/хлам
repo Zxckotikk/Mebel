@@ -1,7 +1,0 @@
-<main class="hero">
-        <ul class="hero-list">
-            <li class="hero-item"><button>Chair</button></li>
-            <li class="hero-item"><button>Beds</button></li>
-            <li class="hero-item"><button>Sofa</button></li>
-            <li class="hero-item"><button>Lamp</button></li>
-        </ul>
